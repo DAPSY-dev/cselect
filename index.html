@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSelect</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 100px 150px;
+        font-family: sans-serif;
+      }
+    </style>
+    <link rel="stylesheet" href="./assets/css/cselect.css">
+  </head>
+  <body>
+    <form action="./" method="get">
+      <button type="submit">GET</button>
+      <br><br><br><br>
+      <div style="max-width: 256px;">
+        <select name="select1" id="select1" class="js-select" required>
+          <option value="" selected disabled>Please select</option>
+          <option value="bunny">Bunny</option>
+          <option value="kitten">Kitten</option>
+          <option value="hamster">Hamster</option>
+        </select>
+      </div>
+    </form>
+    <script src="./assets/js/app.js" type="module"></script>
+  </body>
+</html>
